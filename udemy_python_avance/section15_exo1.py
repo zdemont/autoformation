@@ -3,6 +3,7 @@ import re
 # Pour chaque question, indiquez si le match est valide ou non et ce qu'il retourne.
 
 re.match(r'[a-z]+\d{2}', 'item01')
+
 #  match valide 
 #  une chaine de caractère composer de lettre et de 2 digits
 
