@@ -3,7 +3,7 @@
 
 def somme(a, b):
     numbers = sorted([a, b])
-    list_of_numbers = list(range(numbers[0], numbers[1]+1))
+    list_of_numbers = range(numbers[0], numbers[1]+1)
     
     return sum(list_of_numbers)
 
